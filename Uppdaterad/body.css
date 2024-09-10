@@ -1,0 +1,224 @@
+.huvudsida{
+    background-color: rgb(242, 240, 235);
+}
+
+.navbar3{
+    visibility: hidden;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px 20px 10px 20px;
+    background-color: #fbfbfb;
+    margin: 0%;
+}
+
+.lista a{
+    color: black;
+}
+
+.lista :hover{
+    transform: scale(1.2);
+    font-weight: 600;
+}
+
+@media  screen and (min-width: 1670px) {
+    .navbar3{
+        visibility: visible;
+    }
+}
+
+.home img{
+    margin: 0;
+    width: 100%;
+} 
+
+.home{
+    padding: 40px 0 40px 0;
+    background-color: rgb(242, 240, 235);
+    position: relative;
+}
+
+/*Rubrik och text som skall vara i inforutan */
+
+.content{
+   background-color: #f2f0eb;
+   height: 100%;
+   padding-top: 40px;
+   margin: 0 50px;
+}
+
+.rubrik{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.brödtext{
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%; 
+}
+
+.bokarum{
+    display: flex;
+    background-color: white;
+    width: 60%;
+    border-radius: 10px;
+    z-index: 100;
+    position: absolute;
+    align-items: center;
+    left: 20%;
+    margin-bottom: 40px;
+    margin-top: -130px;
+    padding: 10px 30px 10px 30px;
+}
+
+.col{
+    margin: 10px 20px 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.col1{
+    margin: 10px 20px 10px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.bookingcd{
+    display: flex;
+    width: auto;
+    margin: 0 20px 0 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.878);
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.form-control{
+    background-color: white
+}
+
+.bookingbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc339d;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid black;
+    font-weight: 650;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 0 20px 0 0;
+}
+
+.content3{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(242, 240, 235);
+}
+
+.content img{
+    width: 370px;
+    height: 250px;
+}
+
+/* Första rutan */
+
+.Fcontent {
+    position: relative; 
+    display: block;
+    text-decoration: none;
+}
+
+.erbjudanden {
+    position: absolute;
+    top: 50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: #ffcc339d;    
+    padding: 0;
+    font-size: 28px;
+    text-align: center;
+    width: calc(100%); 
+    background-color: #162b42;
+    border: solid 2px #ffcc339d;
+}
+
+/* Andra rutan*/
+
+.Acontent {
+    position: relative; 
+    display: block;
+    text-decoration: none;
+    color: inherit; 
+    margin-left: 36px;
+}
+
+.konferens {
+    position: absolute;
+    top: 50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: #ffcc339d; 
+    padding: 0;
+    font-size: 28px;
+    text-align: center;
+    width: calc(100% ); 
+    background-color: #162b42;
+    border: solid 2px #ffcc339d;
+}
+
+/* Tredje rutan*/
+
+.Tcontent {
+    position: relative; 
+    display: block;
+    text-decoration: none;
+    color: inherit; 
+    margin-left: 36px;
+}
+
+.rum {
+    position: absolute;
+    top: 50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: #ffcc339d; 
+    padding: 0;
+    font-size: 28px;
+    text-align: center;
+    width: calc(100%); 
+    background-color: #162b42;
+    border: solid 2px #ffcc339d;
+}
+
+
+
+
+
+
+
+
+
+
+
+

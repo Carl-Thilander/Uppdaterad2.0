@@ -1,0 +1,99 @@
+header{
+   background-color:  #1f1d1d !important;  
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar{
+display: flex;
+align-items: center;
+padding-left: 13px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu select{
+    background-color: #1f1d1d;
+    color: white;
+    border: none;
+}
+
+a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.logga2 {
+    height: 30px;
+}
+
+.logga1 {
+    height: 30px;
+}
+
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 101;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav img{
+    height: 86px;
+    width: auto;
+    align-items: center;
+}
+
+.rightmenu {
+    display: flex;
+    align-items: center;
+}
+
+.rightmenu img{
+    height: 40px;
+    width: auto;
+    padding: 5px;
+}
+
+svg{
+    height: 24px;
+    width: auto;
+    padding: 5px;
+    fill: white;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    height: 20px;
+    border-radius: 5px;
+}
+
+.sticky-top{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.sticky-top img{
+    height: 50px;
+    width: auto;
+}

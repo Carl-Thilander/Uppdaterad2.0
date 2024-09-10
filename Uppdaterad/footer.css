@@ -1,0 +1,104 @@
+.semifooter{
+    display: flex;
+    background-color: #333c46;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.listor{
+    margin: 20px 120px 20px 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.semifooter li{
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    font-weight: 180;
+    font-size: smaller;
+}
+
+.noto-sans li{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.semifooter ul{
+    padding: 40px 30px 40px 30px;
+    list-style: none;
+}
+
+footer{
+    background: #2d3640;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+
+.insidefooter{
+    margin-left: 120px;  
+    color: white;
+    font-weight: 300;
+    margin-top: 10%;
+}
+
+.insidefooter1{
+    margin-top: 20px;
+}
+
+footer h3{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.telefonnmr{
+    padding-bottom: 20px;
+}
+
+.insidefooter h2{
+    font-weight: 200;
+    display: block;
+}
+
+.insidefooter ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    font-weight: 100;
+}
+
+.insidefooter li{
+   padding-right: 10px;
+   font-weight: 100;
+}
+
+.insidefooter p{
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.telefonnmr{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: auto;
+}
+
+#insidefooter2{
+    margin-left: 520px;
+}
+
+.Copyright{
+color: white;
+font-size: 5px;
+margin-left: 300px;
+}
+
